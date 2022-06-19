@@ -1,0 +1,42 @@
+/* ================== SECTION ARTICLES =============== */
+#section-articles {
+    display: flex;
+    max-width: 1320px;
+    
+    margin: 0 auto;
+}
+
+@media (max-width: 800px){
+    #section-articles{
+        flex-direction: column;
+    }
+}
+
+#section-articles > article {
+    padding: 40px;
+}
+
+#section-articles > article img {
+    width: 50px;
+}
+
+#section-articles > article h4 {
+    font-size: 12px;
+}
+
+#section-articles > article p {
+    color: var(--grey-light)
+    padding: 12px 0;
+}
+
+hr {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+    hr {
+        width: 200px;
+    }
+}

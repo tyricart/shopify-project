@@ -1,0 +1,23 @@
+/* normalizing css */
+*,
+*::after,
+*::before, {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* site variables here */
+:root {
+    --purple: #515fbc;
+    --grey-light: #8e99a1;
+    --blue-dark: #1e262f;
+    --white: #fefefe;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Roborto', sans-serif;
+    text-align: center;
+}

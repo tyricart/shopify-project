@@ -1,0 +1,6 @@
+/* import all of the css files */
+@import url('/styles/setup.css');
+@import url('/styles/top.css');
+@import url('/styles/articles.css');
+
+@import url('styles/styles.css');

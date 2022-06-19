@@ -1,0 +1,82 @@
+@keyframes purple-gradient {
+    0% {
+        background: rgb(81, 95, 188);
+        background: linear-gradient(128deg, rgba(81, 95, 188, 1) 0%, rgba(30, 38, 47, 1) 72%, rgba(142, 153, 161, 1) 100%);
+    }
+    50% {
+        background-color: var(--blue-dark);
+    }
+    100% {
+        background-color: var(--purple);
+    }
+}
+
+.purple-section {
+    background-color: var(--purple);
+    color: var(--white);
+
+    animation-name: purple-gradient;
+    animation-duration: 12s;
+}
+
+.purple-section__logo > img {
+    width: 80px;
+    margin: 30px 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+@media (max-width: 1200px){
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 12px;
+}
+}
+
+#form-cta {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0
+}
+
+#form-cta > input {
+    width: 200px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 1px gray;
+}
+
+#form-cta > button {
+    background-color: var(--blue-dark);
+    color: var(--white);
+    padding: 7px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#form-cta > button:hover {
+    background-color: var(--grey-light);
+    color: var(--blue-dark);
+}
+
+#form-cta > button:active {
+    background-color: var(--purple);
+    border: solid 1px var(--white);
+}
+
+@media (max-width: 1200px) {
+    #img-laptop {
+        width: 100%;
+    }
+}
+
+#img-waves {
+    width: 100%;
+    vertical-align: middle;
+}
